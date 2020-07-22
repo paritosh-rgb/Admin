@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="266dp"
+        android:layout_height="69dp"
+        android:background="@drawable/r"
+        android:text="Upload New Schemes"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="259dp"
+        android:layout_height="72dp"
+        android:background="@drawable/r"
+        android:text="Update Schemes"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="261dp"
+        android:layout_height="69dp"
+        android:background="@drawable/r"
+        android:text="Demographic Representation of data"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="269dp"
+        android:layout_height="71dp"
+        android:background="@drawable/r"
+        android:text="Document Verification"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#501A9C"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="224dp"
+        android:layout_height="50dp"
+        android:text="APP NAME"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="276dp"
+        android:layout_height="69dp"
+        android:background="@drawable/r"
+        android:text="Customer Portal"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="183dp"
+        android:layout_height="41dp"
+        android:background="@drawable/r"
+        android:text="My Profile"
+        android:textColor="#151515"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
